@@ -21,4 +21,4 @@ In debug code under optimisation code size is 20776 and run time is  1396 millis
 Release Mode:</br> 
 In release mode under optimisation code size is 19468 and run time is 1393 milliseconds</br>
 Extra Credit: </br>
-1. Optimized the code size with assembly to 1393 ms </br>
+1. Optimized the code size with assembly which reduced the time to 1393 ms </br>
