@@ -8,7 +8,8 @@ The summary of the changes performed are:</br>
 4) Assembly code usage will help optimize the code. The assembly code was written for the function ISHAProcessMessageBlock() </br>
 5) Unnecessary code which would not run was removed. </br>
 6) Length High was removed and only length low was used for buffer calculation and corrupted check is removed. This can be observed in ISHAResult and ISHAinput respectively.</br>
-7) The ISHAReset and ISHAInput functions required to be calculated once for inner padding and outer padding.Hence static structures were used for optimization</br> 
+7) The ISHAReset and ISHAInput functions required to be calculated once for inner padding and outer padding.Hence static structures were used for optimization</br>
+8)Added assembly code for ISHAProcessMessageBlock() function to reduce the time</br>
 
 Results:</br>
 Before Optimisation code size - 21056 bytes </br>
