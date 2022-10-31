@@ -1,6 +1,6 @@
 # PES-Assignment-5
-CODE OPTIMIZATION
-ISHA Optimization</br>
+CODE OPTIMIZATION</br>
+
 The summary of the changes performed are:</br>
 1) The data copy is performed using for loop and to optimize this memcopy and memset function was used</br>
 2) To load and store 32bit integers from/to 8bit integers built-in swap functions were used. The swap operation can be seen in the functions ISHAResult() and F()</br>
